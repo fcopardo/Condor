@@ -1,11 +1,10 @@
-# Condor For Twitter
-Twitter Client for Android Devices implemented with Material Design
+# Condor for Twitter
+Twitter Client for Android Devices implemented with Material Design.
 
-This proyect iis develop with **Android Studio**. You can download it from [here](https://developer.android.com/sdk/installing/studio.html).
+This proyect is being developed with **Android Studio**. You can download it from [here](https://developer.android.com/sdk/installing/studio.html).
 
 ### Beta Release
-No Beta versions at this time , at this moment the master branch contains a version Alfa developing .
-As we have a beta version for testing , so we will know ...
+There's no _beta_ releases at this time. Code on the _master_ branch **should be considered _alfa_ until further notice**. As soon as we get to a beta-quality version for testing, we'll let you know right here.
 
 ### Contribute
-If you want to contribute to the project, you are welcome to do so.
+Contributions are *very* welcome, just send a PR :)

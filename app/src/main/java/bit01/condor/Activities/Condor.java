@@ -14,7 +14,7 @@ public class Condor extends Activity {
         super.onCreate(savedInstanceState);
         LocalStorage.initLocalStorage(this);
 
-        if (LocalStorage.isUserRegistered()) {
+        if (LocalStorage.isLoggedInTwitter()) {
             Intent launchMainApplication = new Intent(Condor.this, MainApplication.class);
             Condor.this.startActivity(launchMainApplication);
             finish();

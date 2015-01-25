@@ -2,7 +2,10 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
-        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Primary_Color</item>
+        <item name="colorPrimaryDark">@color/Primary_Dark_Color</item>
+        <item name="colorAccent">@color/Accent_Color</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 
 </resources>

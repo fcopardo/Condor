@@ -13,17 +13,17 @@ public class LocalStorage {
     private static SharedPreferences _SHARED_PREFERENCE;
     private static SharedPreferences.Editor _PREFERENCE_EDITOR;
 
-    private static String KEY_USER_REGISTERED = "user_registered";
+    private static String KEY_USER_REGISTERED = "user_loggin";
 
     public static void initLocalStorage(Context context) {
         _SHARED_PREFERENCE = context.getSharedPreferences(_SHARED_PREFERENCE_FILE, Activity.MODE_PRIVATE);
     }
 
-    public static Boolean isUserRegistered() {
+    public static Boolean isLoggedInTwitter() {
         return _SHARED_PREFERENCE.getBoolean(KEY_USER_REGISTERED, false);
     }
 
-    public static void setUserRegistered() {
+    public static void setLoggedInTwitter() {
         _PREFERENCE_EDITOR = _SHARED_PREFERENCE.edit();
         _PREFERENCE_EDITOR.putBoolean(KEY_USER_REGISTERED, true);
         _PREFERENCE_EDITOR.apply();

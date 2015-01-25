@@ -9,7 +9,7 @@ import android.content.SharedPreferences;
  */
 
 public class LocalStorage {
-    private static final String _SHARED_PREFERENCE_FILE = "cl.bit01.condor/LocalStorage";
+    private static final String _SHARED_PREFERENCE_FILE = "cl.bit01.condor.local_storage";
     private static SharedPreferences _SHARED_PREFERENCE;
     private static SharedPreferences.Editor _PREFERENCE_EDITOR;
 

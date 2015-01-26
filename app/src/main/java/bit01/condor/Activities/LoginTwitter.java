@@ -158,7 +158,6 @@ public class LoginTwitter extends Activity {
 
                 User user = twitter.showUser(accessToken.getUserId());
                 Log.d("Condor", "Twitter user: " + user.getName() + " logued sucess");
-
             } catch (TwitterException e) {
                 e.printStackTrace();
             }
@@ -169,6 +168,7 @@ public class LoginTwitter extends Activity {
         protected void onPostExecute(Boolean response) {
             if (response) {
                 progress.hide();
+                LocalStorage.setLoggedInTwitter();
             }
         }
     }

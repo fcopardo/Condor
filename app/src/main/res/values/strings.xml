@@ -4,5 +4,9 @@
     <string name="app_name">Condor For Twitter - Beta</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="login_with_twitter">Entrar con Twitter</string>
+    <string name="fetch_data">Obteniendo Informacion...</string>
+    <string name="invalid_credentials">Disculpa, credenciales invalidas!</string>
+    <string name="access_denied">Disculpa, permiso Denegado!</string>
 
 </resources>

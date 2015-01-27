@@ -5,7 +5,6 @@
         <item name="colorPrimary">@color/Primary_Color</item>
         <item name="colorPrimaryDark">@color/Primary_Dark_Color</item>
         <item name="colorAccent">@color/Accent_Color</item>
-        <item name="android:windowNoTitle">true</item>
     </style>
 
 </resources>

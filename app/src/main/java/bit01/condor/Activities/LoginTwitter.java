@@ -6,6 +6,7 @@ package bit01.condor.Activities;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -169,6 +170,9 @@ public class LoginTwitter extends Activity {
             if (response) {
                 progress.hide();
                 LocalStorage.setLoggedInTwitter();
+                Intent launchMainApplication = new Intent(LoginTwitter.this, Condor.class);
+                LoginTwitter.this.startActivity(launchMainApplication);
+                finish();
             }
         }
     }

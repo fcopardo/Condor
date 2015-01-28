@@ -20,6 +20,7 @@ import bit01.condor.Utils.NavBarAdapter;
 import bit01.condor.Utils.RecyclerItemClickListener;
 
 public class Condor extends ActionBarActivity {
+    private int actualDrawerPosition = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,14 +80,18 @@ public class Condor extends ActionBarActivity {
                                 break;
                         }
 
-                        if (fragment != null) {
+                        if (fragment != null && position != actualDrawerPosition) {
                             FragmentManager fragmentManager = getFragmentManager();
                             fragmentManager.beginTransaction().replace(R.id.FrameContainer, fragment).commit();
-                            mDrawerLayout.closeDrawers();
+                            actualDrawerPosition = position;
                         }
+                        mDrawerLayout.closeDrawers();
                     }
                 })
         );
         mRecyclerView.setLayoutManager(mLayoutManager);
+        Fragment timeline = new Timeline();
+        FragmentManager fragmentManager = getFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.FrameContainer, timeline).commit();
     }
 }

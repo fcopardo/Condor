@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="White_Background">#FFFFFF</color>
+    <color name="White_Background">#f0f0f0</color>
     <color name="Font_Light_Color">#FFFFFF</color>
     <color name="Primary_Color">#27808C</color>
     <color name="Primary_Dark_Color">#1f6670</color>
+    <color name="Ripple_Color">#1f6670</color>
     <color name="Accent_Color">#FFFFFF</color>
     <color name="Grey_Color">#4C4C4C</color>
     <color name="Font_Dark_Color">#000000</color>

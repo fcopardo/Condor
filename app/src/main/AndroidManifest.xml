@@ -28,6 +28,10 @@
             android:name=".Activities.ComposeTweet"
             android:label="@string/app_name"
             android:theme="@style/AppThemeTransparent" />
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="86d655bed75accbc2797370dbe31c4d5c5bf082d" />
     </application>
 
 

@@ -51,7 +51,7 @@ public class NavBarAdapter extends RecyclerView.Adapter<NavBarAdapter.ViewHolder
             holder.textView.setText(mNavTitles[position - 1]);
             holder.imageView.setImageResource(mIcons[position - 1]);
         } else {
-            //holder.twitterAvatar.setImageResource(avatarTwitterUrl); replace for picasso
+            //holder.twitterAvatar.setImageResource(avatarTwitterUrl); TODO: replace for picasso
             holder.twitterName.setText(nameTwitter);
             holder.twitterUser.setText(userTwitter);
         }

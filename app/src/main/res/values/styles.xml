@@ -13,6 +13,9 @@
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:backgroundDimEnabled">false</item>
+        <item name="colorPrimary">@color/Primary_Color</item>
+        <item name="colorPrimaryDark">@color/Primary_Dark_Color</item>
+        <item name="colorAccent">@color/Accent_Color</item>
     </style>
 
 </resources>
